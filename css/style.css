@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.header{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 20px 0 22px 0;
+    padding-right: 205.5px;
+    background-image: url(../images/Chess_Black_background_Black_and_white_571896_2048x1152.jpg);
+    background-size: cover;
+}
+.menu_container{
+    display: flex;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.debut{
+    padding-left: 205.5px;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu{
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.menu a:hover{
+    transition: color 0.5s;
+    color: cadetblue;
+}
+
+main{
+    margin: 0 205.55px;
+}
+
+main p{
+    text-align: justify;
+}
+.footer{
+    padding: 40px 205.55px;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
+
+.debut_img{
+    height: 336px;
+}
+.debut_img img{
+    height: 100%;
+
+}
+.text_right{
+    text-align: right;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn:hover{
+    transition: color 0.5s;
+    color:cadetblue;
+    border-color: cadetblue;
+}
