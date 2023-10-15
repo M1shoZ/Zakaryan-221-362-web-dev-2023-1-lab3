@@ -8,18 +8,18 @@ h1{
 }
 
 .header{
+    position: sticky;
+    top: 0;
     font-weight: bold;
     color: white;
     background-image: url(../images/background.jpg);
     background-size: cover;
-}
-.menu_container{
-    position: sticky;
-    background-color: black;
-    display: flex;
     padding: 20px 0 22px 0;
     padding-right: 205.5px;
-    top: 0;
+}
+.menu_container{
+    background-color: black;
+    display: flex;
 }
 
 
