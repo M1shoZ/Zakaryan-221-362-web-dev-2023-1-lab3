@@ -2,7 +2,8 @@
 <html lang="ru">
 
 <head>
-    <title>Закарян Михаил Арманович - 221-362 - лаб.3</title>
+    <?php $t='Закарян Михаил Арманович - 221-362 - лаб.3'?>
+    <title><?php echo 't'; ?></title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -40,7 +41,12 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            &copy; Закарян М.А. 
+            &copy; Закарян М.А.
+            <p>
+                    Сформированно
+                    <?php date_default_timezone_set('Europe/Moscow'); ?>
+                    <?php echo date('d.m.y H:i:s'); ?>
+                </p> 
         </div>
     </footer>
 </body>
