@@ -13,10 +13,10 @@
            <h1>MZGambit</h1>
             <div class="container">
                 <nav class="menu">
-                    <a class="highlight" href="main">Главная</a>
-                    <a href="Italian.html">Итальянская партия</a>
-                    <a href="Caro_Kann.html">Защита Каро-Канн</a>
-                    <a href="Scottish.html">Шотландская партия</a>
+                    <a class="highlight" href="index.php">Главная</a>
+                    <a href="Italian.php">Итальянская партия</a>
+                    <a href="Caro_Kann.php">Защита Каро-Канн</a>
+                    <a href="Scottish.php">Шотландская партия</a>
                 </nav>
             </div> 
         </div>
@@ -41,7 +41,7 @@
                     <img  src="images/italish.png" alt="Итальянская партия">
                 </figure>
                 <div class="text_right">
-                    <a class="btn" href="Italian.html">Подробнее</a>
+                    <a class="btn" href="Italian.php">Подробнее</a>
                 </div>
             </section>
             <section id="Caro_Kann">
@@ -55,7 +55,7 @@
                     <img src="images/karo-kann.png" alt="Защита Каро-Канн">
                 </figure>
                 <div class="text_right">
-                    <a class="btn" href="Caro_Kann.html">Подробнее</a>
+                    <a class="btn" href="Caro_Kann.php">Подробнее</a>
                 </div>
             </section>
 
@@ -70,7 +70,7 @@
                     <img src="images/Scotland.png" alt="Шотландская партия">
                 </figure>
                 <div class="text_right">
-                    <a class="btn" href="Scottish.html">Подробнее</a>
+                    <a class="btn" href="Scottish.php">Подробнее</a>
                 </div>
             </section>
         </div>

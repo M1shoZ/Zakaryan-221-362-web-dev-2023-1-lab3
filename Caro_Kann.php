@@ -13,10 +13,10 @@
            <h1>MZGambit</h1>
             <div class="container">
                 <nav class="menu">
-                    <a href="index.html">Главная</a>
-                    <a href="Italian.html">Итальянская партия</a>
-                    <a class="highlight" href="Caro_Kann.html">Защита Каро-Канн</a>
-                    <a href="Scottish.html">Шотландская партия</a>
+                    <a href="index.php">Главная</a>
+                    <a href="Italian.php">Итальянская партия</a>
+                    <a class="highlight" href="Caro_Kann.php">Защита Каро-Канн</a>
+                    <a href="Scottish.php">Шотландская партия</a>
                 </nav>
             </div> 
         </div>
