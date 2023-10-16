@@ -3,7 +3,7 @@
 
 <head>
     <?php $t='Закарян Михаил Арманович - 221-362 - лаб.3'?>
-    <title><?php echo 't'; ?></title>
+    <title> <?php echo $t; ?> </title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -14,10 +14,57 @@
            <h1>MZGambit</h1>
             <div class="container">
                 <nav class="menu">
-                    <a class="highlight" href="index.php">Главная</a>
-                    <a href="Italian.php">Итальянская партия</a>
-                    <a href="Caro_Kann.php">Защита Каро-Канн</a>
-                    <a href="Scottish.php">Шотландская партия</a>
+                    <!-- Главная -->
+                    <a href="<?php
+                        $name='Главная';
+                        $link='index.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>" class="highlight">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a>
+                    <!-- Итальянская партия -->
+                    <a href="<?php
+                        $name='Итальянская партия';
+                        $link='Italian.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a>
+                    <!-- <a href="Italian.php">Итальянская партия</a> -->
+                    <!-- Защита Каро-Канн -->
+                    <a href="<?php
+                        $name='Защита Каро-Канн';
+                        $link='Caro_Kann.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a>
+                    <!-- <a href="Caro_Kann.php">Защита Каро-Канн</a> -->
+                    <!-- Шотландская партия -->
+                    <a href="<?php
+                        $name='Шотландская партия';
+                        $link='Scottish.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a>
+                    <!-- <a href="Scottish.php">Шотландская партия</a> -->
                 </nav>
             </div> 
         </div>
@@ -39,7 +86,7 @@
                     то есть «тихая игра». Анализы итальянских мастеров, успешно применявших его на практике 
                     (главным образом Педро Дамиано), появились уже в XVI веке.</p>
                 <figure class="debut_img">
-                    <img  src="images/italish.png" alt="Итальянская партия">
+                    <?php echo '<img src="images/italish'.(date('s') % 2+1).'.png" alt="Меняющаяся фотография">'; ?>
                 </figure>
                 <div class="text_right">
                     <a class="btn" href="Italian.php">Подробнее</a>
@@ -53,7 +100,7 @@
                     Карпов отмечал особенность Каро — Канн: при желании чёрных, избежать защиты Каро — 
                     Канн нельзя, то есть чёрные определяют выбор дебюта</p>
                 <figure class="debut_img">
-                    <img src="images/karo-kann.png" alt="Защита Каро-Канн">
+                    <?php echo '<img src="images/karo-kann'.(date('s') % 2+1).'.png" alt="Меняющаяся фотография">'; ?>
                 </figure>
                 <div class="text_right">
                     <a class="btn" href="Caro_Kann.php">Подробнее</a>
@@ -68,7 +115,7 @@
                      Является солидным позиционным дебютом и применяется на практике сильнейшими шахматистами 
                      мира в течение почти двух столетий</p>
                 <figure class="debut_img">
-                    <img src="images/Scotland.png" alt="Шотландская партия">
+                    <?php echo '<img src="images/Scotland'.(date('s') % 2+1).'.png" alt="Меняющаяся фотография">'; ?>
                 </figure>
                 <div class="text_right">
                     <a class="btn" href="Scottish.php">Подробнее</a>
