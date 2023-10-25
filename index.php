@@ -66,7 +66,7 @@
                     </a>
                     <!-- <a href="Scottish.php">Шотландская партия</a> -->
                     <!-- Кнопка ВОЙТИ -->
-                    <a href="input.php">Связаться с нами</a>
+                    <a href="input.php">Связь</a>
                 </nav>
             </div> 
         </div>
