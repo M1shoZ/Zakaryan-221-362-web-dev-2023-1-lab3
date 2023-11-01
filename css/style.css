@@ -115,3 +115,10 @@ main p{
 .class{
     color: black;
 }
+
+.form{
+    padding-top: 10px;
+}
+.form-group{
+    padding-top: 10px;
+}
