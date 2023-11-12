@@ -20,51 +20,65 @@
                         $link='index.php';
                         $current_page=true;
                         echo $link;
-                    ?>">
-                    <?php
-                        if( $current_page)
-                            echo $name;
-                    ?>
-                    </a>
-                    <!-- Итальянская партия -->
-                    <a href="<?php
-                        $name='Итальянская партия';
-                        $link='Italian.php';
-                        $current_page=true;
-                        echo $link;
-                    ?>" >
-                    <?php
-                        if( $current_page)
-                            echo $name;
-                    ?>
-                    </a>
-                    <!-- <a href="Italian.php">Итальянская партия</a> -->
-                    <!-- Защита Каро-Канн -->
-                    <a href="<?php
-                        $name='Защита Каро-Канн';
-                        $link='Caro_Kann.php';
-                        $current_page=true;
-                        echo $link;
-                    ?>" >
-                    <?php
-                        if( $current_page)
-                            echo $name;
-                    ?>
-                    </a>
-                    <!-- <a href="Caro_Kann.php">Защита Каро-Канн</a> -->
-                    <!-- Шотландская партия -->
-                    <a href="<?php
-                        $name='Шотландская партия';
-                        $link='Scottish.php';
-                        $current_page=true;
-                        echo $link;
                     ?>" class="highlight">
                     <?php
                         if( $current_page)
                             echo $name;
                     ?>
                     </a>
+                    <!-- Итальянская партия -->
+                    <!-- <a href="<?php
+                        $name='Итальянская партия';
+                        $link='Italian.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a> -->
+                    <!-- <a href="Italian.php">Итальянская партия</a> -->
+                    <!-- Защита Каро-Канн -->
+                    <!-- <a href="<?php
+                        $name='Защита Каро-Канн';
+                        $link='Caro_Kann.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a> -->
+                    <!-- <a href="Caro_Kann.php">Защита Каро-Канн</a> -->
+                    <!-- Шотландская партия -->
+                    <!-- <a href="<?php
+                        $name='Шотландская партия';
+                        $link='Scottish.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a> -->
                     <!-- <a href="Scottish.php">Шотландская партия</a> -->
+                    <!-- Определения -->
+                    <a href="<?php
+                        $name='Определения и термины';
+                        $link='#';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a>
+                    <!-- Свзязь -->
+                    <a href="input.php">Связь</a>
                 </nav>
             </div> 
         </div>

@@ -27,7 +27,7 @@
                     ?>
                     </a>
                     <!-- Итальянская партия -->
-                    <a href="<?php
+                    <!-- <a href="<?php
                         $name='Итальянская партия';
                         $link='Italian.php';
                         $current_page=true;
@@ -37,10 +37,10 @@
                         if( $current_page)
                             echo $name;
                     ?>
-                    </a>
+                    </a> -->
                     <!-- <a href="Italian.php">Итальянская партия</a> -->
                     <!-- Защита Каро-Канн -->
-                    <a href="<?php
+                    <!-- <a href="<?php
                         $name='Защита Каро-Канн';
                         $link='Caro_Kann.php';
                         $current_page=true;
@@ -50,10 +50,10 @@
                         if( $current_page)
                             echo $name;
                     ?>
-                    </a>
+                    </a> -->
                     <!-- <a href="Caro_Kann.php">Защита Каро-Канн</a> -->
                     <!-- Шотландская партия -->
-                    <a href="<?php
+                    <!-- <a href="<?php
                         $name='Шотландская партия';
                         $link='Scottish.php';
                         $current_page=true;
@@ -63,9 +63,21 @@
                         if( $current_page)
                             echo $name;
                     ?>
-                    </a>
+                    </a> -->
                     <!-- <a href="Scottish.php">Шотландская партия</a> -->
-                    <!-- Кнопка ВОЙТИ -->
+                    <!-- Определения -->
+                    <a href="<?php
+                        $name='Глоссарий';
+                        $link='definitions.php';
+                        $current_page=true;
+                        echo $link;
+                    ?>">
+                    <?php
+                        if( $current_page)
+                            echo $name;
+                    ?>
+                    </a>
+                    <!-- Свзязь -->
                     <a href="input.php">Связь</a>
                 </nav>
             </div> 
@@ -102,7 +114,7 @@
                     Карпов отмечал особенность Каро — Канн: при желании чёрных, избежать защиты Каро — 
                     Канн нельзя, то есть чёрные определяют выбор дебюта</p>
                 <figure class="debut_img">
-                    <?php echo '<img src="images/karo-kann'.(date('s') % 2+1).'.png" alt="Меняющаяся фотография">'; ?>
+                    <?php echo '<img title = "Каро-канн"src="images/karo-kann'.(date('s') % 2+1).'.png" alt="Меняющаяся фотография">'; ?>
                 </figure>
                 <div class="text_right">
                     <a class="btn" href="Caro_Kann.php">Подробнее</a>
